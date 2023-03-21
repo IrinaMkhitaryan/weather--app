@@ -5,9 +5,9 @@ Weather App
 yarn dev
 
 ## Usage
-Material UI
-TypeScript
-Redux Toolkit
+Material UI,
+TypeScript,
+Redux Toolkit,
 
-# For Forecast Chart
+## For Forecast Chart
 react-chartjs-2
