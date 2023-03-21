@@ -1,7 +1,7 @@
-import Hello from '~/components/Hello';
+import Weather from '~/components/Weather';
 
 function App() {
-  return <Hello />;
+  return <Weather />;
 }
 
 export default App;
