@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import { PropTypes } from '~/components/WeatherContent/PropTypes';
-import { MEASURE_Type } from '~/constants';
+import { IMAGE_Link, MEASURE_Type } from '~/constants';
 
 const WeatherContent = (props: PropTypes) => {
   const { weatherData, isCurrent = false, measureType } = props;
@@ -13,7 +13,7 @@ const WeatherContent = (props: PropTypes) => {
         </Typography>
         <Box display='flex'>
           <img
-            src={`https://openweathermap.org/img/w/${weatherData.icon}.png`}
+            src={`${IMAGE_Link}${weatherData.icon}.png`}
             alt=''
             height={isCurrent ? '200px' : '100px'}
           />
